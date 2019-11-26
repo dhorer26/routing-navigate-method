@@ -1,0 +1,8 @@
+<p>
+  department-list works!
+</p>
+<ul>
+  <li (click)="onSelect(dept)" *ngFor="let dept of departments">
+    {{dept.id}}{{dept.name}}
+  </li>
+</ul>
